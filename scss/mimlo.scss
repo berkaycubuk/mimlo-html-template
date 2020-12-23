@@ -1,0 +1,25 @@
+/*
+  Mimlo CSS
+*/
+
+// Normalize CSS v8.0.1
+@import "normalize";
+
+// Variables
+@import "variables";
+
+* {
+  font-family: $font-primary;
+}
+
+// Layout
+@import "layout";
+
+// Header
+@import "header";
+
+// Main
+@import "main";
+
+// Footer
+@import "footer";

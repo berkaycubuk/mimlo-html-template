@@ -1,0 +1,25 @@
+{
+  "name": "mimlo-html-template",
+  "version": "1.0.0",
+  "description": "Mimlo is open-source, minimalist HTML blog template.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkaycubuk/mimlo-html-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berkaycubuk/mimlo-html-template/issues"
+  },
+  "homepage": "https://github.com/berkaycubuk/mimlo-html-template#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
+  }
+}

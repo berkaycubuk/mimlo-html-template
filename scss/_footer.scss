@@ -1,0 +1,25 @@
+// Footer
+.footer {
+  height: $footer-height;
+  background-color: $header-background;
+
+  .footer-container {
+    height: 100%;
+    align-items: center;
+  }
+
+  .footer-copyright {
+    font-weight: lighter;
+    color: $color-primary;
+
+    a {
+      text-decoration: none;
+      font-weight: normal;
+      color: $color-primary;
+
+      &:hover {
+        color: $color-secondary;
+      }
+    }
+  }
+}
