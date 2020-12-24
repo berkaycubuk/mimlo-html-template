@@ -6,6 +6,8 @@ Mimlo is open-source, minimalist HTML blog template.
 
 Just clone the repo and start using it.
 
+> Note: To show your respect, please do not remove footer text.
+
 ## Contributing
 
 Feel free to create PR.
