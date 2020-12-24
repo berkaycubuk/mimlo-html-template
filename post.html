@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mimlo | Post</title>
+    <!-- Mimlo CSS -->
+    <link rel="stylesheet" href="scss/mimlo.scss" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="header-title" href="index.html"> Mimlo </a>
+        <!-- /header-title -->
+
+        <nav class="header-nav">
+          <a href="index.html" class="header-nav-item">Home</a>
+          <a href="#" class="header-nav-item">About</a>
+          <a href="#" class="header-nav-item">Contact</a>
+        </nav>
+        <!-- /header-nav -->
+
+        <div class="header-mobile-nav">
+          <span class="header-mobile-nav-button" onclick="openMenu()">
+            <img src="images/bars.svg" alt="" />
+            Menu
+          </span>
+
+          <div id="nav-menu" class="mobile-nav">
+            <a class="mobile-nav-item" href="index.html">Home</a>
+            <a class="mobile-nav-item" href="#">About</a>
+            <a class="mobile-nav-item" href="#">Contact</a>
+          </div>
+        </div>
+        <!-- /header-mobile-nav -->
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="main">
+      <div class="container">
+        <div class="col-12">
+          <div class="page-head">
+            <h1 class="page-title">Lorem Ipsum</h1>
+            <div class="page-details">
+              <div class="page-author">
+                <img src="images/author.svg" alt="" />
+                Berkay Çubuk
+              </div>
+              <div class="page-date">
+                <img src="images/date.svg" alt="" />
+                21.12.2020
+              </div>
+            </div>
+            <div class="page-head-divider"></div>
+          </div>
+        </div>
+      </div>
+      <!-- /main-head -->
+
+      <div class="container">
+        <div class="col-12">
+          <div class="page-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+              condimentum amet ultricies aliquet urna. Consequat sit nisl
+              aliquam, convallis cursus. Euismod ornare placerat tincidunt et
+              semper mauris. Pharetra, risus at neque feugiat bibendum laoreet
+              tincidunt. Quis posuere maecenas nibh auctor sed aliquet donec
+              consectetur. Suspendisse auctor arcu venenatis, pellentesque
+              interdum rhoncus leo urna nulla. Nam maecenas hendrerit gravida
+              integer sit adipiscing. Etiam commodo vehicula convallis sed
+              faucibus elementum. Sit enim aliquam gravida placerat varius proin
+              gravida. Euismod sed euismod id sed. Non nibh egestas tristique
+              magna nunc, elementum eget tempor. Varius lectus non scelerisque
+              congue nam ullamcorper amet ipsum morbi. Eget dui neque, leo, id
+              sagittis, ut lorem vestibulum, morbi. Felis dui sem malesuada
+              nisi.
+            </p>
+            <img src="images/post-image.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+              condimentum amet ultricies aliquet urna. Consequat sit nisl
+              aliquam, convallis cursus. Euismod ornare placerat tincidunt et
+              semper mauris. Pharetra, risus at neque feugiat bibendum laoreet
+              tincidunt. Quis posuere maecenas nibh auctor sed aliquet donec
+              consectetur. Suspendisse auctor arcu venenatis, pellentesque
+              interdum rhoncus leo urna nulla. Nam maecenas hendrerit gravida
+              integer sit adipiscing. Etiam commodo vehicula convallis sed
+              faucibus elementum. Sit enim aliquam gravida placerat varius proin
+              gravida. Euismod sed euismod id sed. Non nibh egestas tristique
+              magna nunc, elementum eget tempor. Varius lectus non scelerisque
+              congue nam ullamcorper amet ipsum morbi. Eget dui neque, leo, id
+              sagittis, ut lorem vestibulum, morbi. Felis dui sem malesuada
+              nisi.
+            </p>
+            <h1>Heading 1 - H1</h1>
+            <h2>Heading 2 - H2</h2>
+            <h3>Heading 3 - H3</h3>
+            <h4>Heading 4 - H4</h4>
+            <h5>Heading 5 - H5</h5>
+            <h6>Heading 6 - H6</h6>
+            <p>Paragraph</p>
+          </div>
+        </div>
+      </div>
+      <!-- /main-content -->
+    </main>
+    <!-- /main -->
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-copyright">
+          <a
+            target="_blank"
+            href="https://github.com/berkaycubuk/mimlo-html-template"
+            >Mimlo</a
+          >
+          by <a href="https://berkaycubuk.com" target="_blank">Berkay Çubuk</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mimlo JS -->
+    <script>
+      let navMenu = document.getElementById("nav-menu");
+
+      function openMenu() {
+        if (navMenu.style.display == "flex") {
+          navMenu.style.display = "none";
+        } else {
+          navMenu.style.display = "flex";
+        }
+      }
+    </script>
+  </body>
+</html>
